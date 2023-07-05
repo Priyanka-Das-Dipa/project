@@ -1,0 +1,116 @@
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline rgb(247, 246, 244);
+    margin: 10px 0px;
+    padding: 10px 10px;
+    color: white;
+    font-size: xx-large;
+   
+}
+h2{
+    color: white;
+    text-align: center;
+}
+h3{
+    text-decoration: dotted;
+    text-align: center;
+
+}
+h4{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    text-decoration:  underline double rgb(129, 126, 122); ;
+}
+
+body{
+    background-image: url("back_1.jpg");
+}
+p{
+    color: rgba(255, 255, 255, 0.53);
+
+
+}
+div{
+    /* border: 3px solid whitesmoke;
+    border-radius: 10px; */
+    text-align: start;
+    margin: 5px;
+    padding: 10px;
+    padding-bottom: 10px;
+    /* box-shadow: 5px 5px 5px wheat; */
+}
+.container{
+    display: flex;
+
+}
+.box {
+    flex: 1;
+    height: 550px;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px whitesmoke;
+    margin: 10px;
+}
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+
+
+}
+.image-container figure{
+    flex: 1;
+    height: auto;
+    width: 100%;
+    padding: 5px;
+}
+.image-container figcaption{
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+}
+.button{
+    height: 30px;
+    width: 150px; 
+    border: 2px double rgb(237, 185, 108);
+    border-radius: 5px;
+    margin: 0;
+    position: absolute;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.from{
+    font-size: larger;
+    color: rgb(200, 247, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    border: 10px double rgb(241, 149, 149);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 100px;
+    
+}
+.from label{
+    align-content: center;
+    margin: 50px;
+    padding: 200px;
+    justify-content: center;
+    text-align: center;
+}
+/* .from button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+} */
+.span{
+    color: coral;
+    animation: forwards;
+    font-style: oblique;
+}
